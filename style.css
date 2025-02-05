@@ -7,6 +7,7 @@ body {
 
 
 
+
 header {
     position: relative; /* 創建定位上下文 */
     z-index: 5; /* 可以控制整個 header 的層級 */
@@ -568,7 +569,7 @@ header {
     position: relative;   /* Positioning context for child elements */
     top: 0%;
     overflow: hidden;
-    z-index: 0;
+    z-index: -1;
     display: flex;
     flex-direction: column; /* 垂直排列 */
     justify-content: center; /* 垂直置中 */
